@@ -11,9 +11,10 @@
 		EA506A2B1B98CA7B00A0FD86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA506A2A1B98CA7B00A0FD86 /* AppDelegate.m */; };
 		EA506A2E1B98CA7B00A0FD86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA506A2D1B98CA7B00A0FD86 /* ViewController.m */; };
 		EA506A311B98CA7B00A0FD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA506A2F1B98CA7B00A0FD86 /* Main.storyboard */; };
-		EA506A331B98CA7C00A0FD86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA506A321B98CA7C00A0FD86 /* Images.xcassets */; };
 		EA506A361B98CA7C00A0FD86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA506A341B98CA7C00A0FD86 /* LaunchScreen.xib */; };
 		EA506A421B98CA7C00A0FD86 /* GOTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA506A411B98CA7C00A0FD86 /* GOTTests.m */; };
+		EA506A4D1B98E66500A0FD86 /* CharacterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA506A4C1B98E66500A0FD86 /* CharacterModel.m */; };
+		EAE952761B9A307B000CEED1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE952751B9A307B000CEED1 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +36,13 @@
 		EA506A2C1B98CA7B00A0FD86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EA506A2D1B98CA7B00A0FD86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA506A301B98CA7B00A0FD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA506A321B98CA7C00A0FD86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA506A351B98CA7C00A0FD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EA506A3B1B98CA7C00A0FD86 /* GOTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA506A401B98CA7C00A0FD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA506A411B98CA7C00A0FD86 /* GOTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOTTests.m; sourceTree = "<group>"; };
+		EA506A4B1B98E66500A0FD86 /* CharacterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterModel.h; sourceTree = "<group>"; };
+		EA506A4C1B98E66500A0FD86 /* CharacterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterModel.m; sourceTree = "<group>"; };
+		EAE952751B9A307B000CEED1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +86,12 @@
 			children = (
 				EA506A291B98CA7B00A0FD86 /* AppDelegate.h */,
 				EA506A2A1B98CA7B00A0FD86 /* AppDelegate.m */,
+				EA506A4B1B98E66500A0FD86 /* CharacterModel.h */,
+				EA506A4C1B98E66500A0FD86 /* CharacterModel.m */,
 				EA506A2C1B98CA7B00A0FD86 /* ViewController.h */,
 				EA506A2D1B98CA7B00A0FD86 /* ViewController.m */,
+				EAE952751B9A307B000CEED1 /* Images.xcassets */,
 				EA506A2F1B98CA7B00A0FD86 /* Main.storyboard */,
-				EA506A321B98CA7C00A0FD86 /* Images.xcassets */,
 				EA506A341B98CA7C00A0FD86 /* LaunchScreen.xib */,
 				EA506A251B98CA7B00A0FD86 /* Supporting Files */,
 			);
@@ -199,9 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE952761B9A307B000CEED1 /* Images.xcassets in Resources */,
 				EA506A311B98CA7B00A0FD86 /* Main.storyboard in Resources */,
 				EA506A361B98CA7C00A0FD86 /* LaunchScreen.xib in Resources */,
-				EA506A331B98CA7C00A0FD86 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA506A2E1B98CA7B00A0FD86 /* ViewController.m in Sources */,
+				EA506A4D1B98E66500A0FD86 /* CharacterModel.m in Sources */,
 				EA506A2B1B98CA7B00A0FD86 /* AppDelegate.m in Sources */,
 				EA506A281B98CA7B00A0FD86 /* main.m in Sources */,
 			);
@@ -349,7 +355,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GOT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +367,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GOT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +428,7 @@
 				EA506A471B98CA7C00A0FD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA506A481B98CA7C00A0FD86 /* Build configuration list for PBXNativeTarget "GOTTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				EA506A4A1B98CA7C00A0FD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
