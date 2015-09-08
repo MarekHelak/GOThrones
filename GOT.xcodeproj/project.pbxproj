@@ -14,6 +14,7 @@
 		EA506A331B98CA7C00A0FD86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA506A321B98CA7C00A0FD86 /* Images.xcassets */; };
 		EA506A361B98CA7C00A0FD86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA506A341B98CA7C00A0FD86 /* LaunchScreen.xib */; };
 		EA506A421B98CA7C00A0FD86 /* GOTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA506A411B98CA7C00A0FD86 /* GOTTests.m */; };
+		EAF822051B9F4A7900888B91 /* CharacterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF822041B9F4A7900888B91 /* CharacterModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EA506A3B1B98CA7C00A0FD86 /* GOTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA506A401B98CA7C00A0FD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA506A411B98CA7C00A0FD86 /* GOTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOTTests.m; sourceTree = "<group>"; };
+		EAF822031B9F4A7900888B91 /* CharacterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterModel.h; sourceTree = "<group>"; };
+		EAF822041B9F4A7900888B91 /* CharacterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				EA506A291B98CA7B00A0FD86 /* AppDelegate.h */,
 				EA506A2A1B98CA7B00A0FD86 /* AppDelegate.m */,
+				EAF822031B9F4A7900888B91 /* CharacterModel.h */,
+				EAF822041B9F4A7900888B91 /* CharacterModel.m */,
 				EA506A2C1B98CA7B00A0FD86 /* ViewController.h */,
 				EA506A2D1B98CA7B00A0FD86 /* ViewController.m */,
 				EA506A2F1B98CA7B00A0FD86 /* Main.storyboard */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA506A2E1B98CA7B00A0FD86 /* ViewController.m in Sources */,
+				EAF822051B9F4A7900888B91 /* CharacterModel.m in Sources */,
 				EA506A2B1B98CA7B00A0FD86 /* AppDelegate.m in Sources */,
 				EA506A281B98CA7B00A0FD86 /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				EA506A471B98CA7C00A0FD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA506A481B98CA7C00A0FD86 /* Build configuration list for PBXNativeTarget "GOTTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				EA506A4A1B98CA7C00A0FD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
