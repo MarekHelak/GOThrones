@@ -7,14 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CharacterModel.h"
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDataSource> {
-    NSMutableArray *characterArray;
-}
+@interface ViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 @end
 
